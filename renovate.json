@@ -9,5 +9,11 @@
       "depNameTemplate": "rust",
       "datasourceTemplate": "rust-version"
     }
+  ],
+  "packageRules": [
+    {
+      "matchDepNames": ["rust"],
+      "rangeStrategy": "pin"
+    }
   ]
 }
